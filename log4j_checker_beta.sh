@@ -139,6 +139,7 @@ COUNT_FOUND=0
 if [ "$(command -v unzip)" ]; then
   # incect find_jar_files at the end of the while loop to prevent extra shell
   while read -r jar_file; do
+    echo "Analyzing $jar_file"
     unzip -l "$jar_file" 2> /dev/null \
       | grep -q -i "log4j" && \
       echo && \
