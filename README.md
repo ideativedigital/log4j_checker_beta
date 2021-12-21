@@ -15,11 +15,11 @@ It does not give a 100% proof, that you are not vulnerable, but it gives a hint 
 
 ### Run with:
 
-    wget https://raw.githubusercontent.com/rubo77/log4j_checker_beta/main/log4j_checker_beta.sh -q -O - |bash
+    wget https://raw.githubusercontent.com/ideativedigital/log4j_checker_beta/main/log4j_checker_beta.sh -q -O - |bash
 
 If you only want to see the warnings use
 
-    wget https://raw.githubusercontent.com/rubo77/log4j_checker_beta/main/log4j_checker_beta.sh -q -O - | bash | grep '\[WARNING\]'
+    wget https://raw.githubusercontent.com/ideativedigital/log4j_checker_beta/main/log4j_checker_beta.sh -q -O - | bash | grep '\[WARNING\]'
 
 Make sure, your `locate` database is updated before running with 
 
